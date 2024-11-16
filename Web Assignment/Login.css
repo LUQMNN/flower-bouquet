@@ -1,0 +1,223 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #564747;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  color: #564747;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  padding: 12px 24px;
+  color: #747070;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background: rgb(199, 203, 184);
+}
+
+.about {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.about-content {
+  max-width: 800px;
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.title1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #564747;
+}
+
+.title2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #564747;
+}
+
+.introduce {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn-box a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  background: rgb(230, 220, 212);
+  border: 2px solid #a49393;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: #806d73;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn-box a:hover {
+  background: #a49393;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.content {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  color: #806d73;
+}
+
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-title {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  color: #564747;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #564747;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #a49393;
+}
+
+.login-button {
+  background: rgb(230, 220, 212);
+  border: 2px solid #a49393;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: #806d73;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background: #a49393;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.signup-link {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #564747;
+}
+
+.signup-link a {
+  color: #a49393;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.signup-link a:hover {
+  color: #806d73;
+}
+.footer-content {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
