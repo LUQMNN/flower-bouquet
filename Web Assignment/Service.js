@@ -11,31 +11,31 @@ let products = [
         id: 2,
         name: "Lily Bundle",
         price: 59.99,
-        image: "anniversary1.jpg"
+        image: "ann2.jpg"
     },
     {
         id: 3,
         name: "Mixed Flowers",
         price: 44.99,
-        image: "anniversary1.jpg"
+        image: "ann3.jpg"
     },
     {
         id: 4,
         name: "Tulip Special",
         price: 39.99,
-        image: "anniversary1.jpg"
+        image: "ann4.jpg"
     },
     {
         id: 5,
         name: "Orchid Delight",
         price: 69.99,
-        image: "anniversary1.jpg"
+        image: "ann5.jpg"
     },
     {
         id: 6,
         name: "Sunflower Joy",
         price: 54.99,
-        image: "anniversary1.jpg"
+        image: "ann6.jpg"
     }
 ];
 
