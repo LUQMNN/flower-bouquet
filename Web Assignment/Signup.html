@@ -50,6 +50,13 @@
         <div class="form-group">
           <label for="password">Password</label>
           <input type="password" id="password" name="password" required>
+          <button class="hide" type="button" onclick="togglePassword('password')">Show</button>
+        </div>
+        
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+          <button class="hide"type="button" onclick="togglePassword('confirm-password')">Show</button>
         </div>
 
         <div class="form-group">
@@ -70,6 +77,16 @@
       <p>&copy; 2024 Floral Bouquet. All rights reserved.</p>
     </div>
   </footer>
+  <script>
+    function togglePassword(id) {
+      const input = document.getElementById(id);
+      if (input.type === "password") {
+        input.type = "text";
+      } else {
+        input.type = "password";
+      }
+    }
+  </script>
 </body>
 
 </html>
