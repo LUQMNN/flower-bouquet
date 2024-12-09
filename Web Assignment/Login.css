@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
+  
 }
 
 .header {
@@ -61,8 +62,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f9f9f9;
+  
   width: 100%;
+  background-color: #f9f9f9;
 }
 
 .about-content {
@@ -71,6 +73,7 @@ body {
   padding: 40px;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
+
 }
 
 .title1 {
@@ -220,4 +223,5 @@ body {
   text-align: center;
   background-color: white;
   border-top: 1px solid rgba(0,0,0,0.1);
+
 }

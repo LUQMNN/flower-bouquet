@@ -1,0 +1,133 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #564747;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  color: #564747;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  padding: 12px 24px;
+  color: #747070;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background: rgb(199, 203, 184);
+}
+.about{
+  background-color: #f9f9f9;
+}
+
+.title1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #564747;
+  text-align: center;
+}
+
+.ListProduct {
+  padding: 40px 5%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.gallery-item {
+  flex: 0 1 300px;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.gallery-item h3 {
+  color: #564747;
+  margin-bottom: 8px;
+}
+
+.gallery-item h5 {
+  color: #806d73;
+  font-weight: normal;
+}
+
+.about-content p {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  color: #806d73;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+
+.footer-content {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin-top: auto;
+}
+
+

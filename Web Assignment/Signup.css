@@ -66,7 +66,7 @@ body {
   padding: 40px 20px;
 }
 
-/* Sign Up Form Styles */
+
 .signup-container {
   background-color: white;
   padding: 40px;
@@ -132,6 +132,23 @@ body {
   min-height: 100px;
 }
 
+.hide{
+  border-radius: 0%;
+  background: rgb(230, 220, 212);
+  border: 2px solid #a49393;
+  color: #806d73;
+  flex: 1;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hide:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
+}
 .button-group {
   display: flex;
   gap: 20px;
